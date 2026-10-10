@@ -5,7 +5,7 @@ First ever opensource HayDay private server! For version 1.5.42.
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 [![Download IPA](https://img.shields.io/badge/Download-IPA-blue?logo=apple&logoColor=white)](https://bluetalktg.pythonanywhere.com/testflight/Hay%20Day%201.5.42%20%28772.14583.4279%29.ipa)
 
-<img width="1024" height="768" alt="IMG_0058" src="https://github.com/user-attachments/assets/00968da5-3e94-4d40-a39f-99ccb914875a" />
+<img width="1024" height="768" alt="IMG_0058" src="https://github.com/user-attachments/assets/b08cafa0-1499-457d-ab98-f3d18c186ed4" />
 
 
 ## What works
