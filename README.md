@@ -1,6 +1,6 @@
 # Hay Day v1.5.42
 
-First ever opensource HayDay private server! For version 1.5.42.
+First ever open source Hay Day private server! For version 1.5.42.
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 [![Download IPA](https://img.shields.io/badge/Download-IPA-blue?logo=apple&logoColor=white)](https://bluetalktg.pythonanywhere.com/testflight/Hay%20Day%201.5.42%20%28772.14583.4279%29.ipa)
