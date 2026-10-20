@@ -1,6 +1,6 @@
 # Hay Day v1.5.42
 
-First ever opensource HayDay private server! For version 1.5.42.
+First ever open source Hay Day private server! For version 1.5.42.
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 [![Download IPA](https://img.shields.io/badge/Download-IPA-blue?logo=apple&logoColor=white)](https://bluetalktg.pythonanywhere.com/testflight/Hay%20Day%201.5.42%20%28772.14583.4279%29.ipa)
@@ -29,8 +29,10 @@ First, download the IPA from [here](https://bluetalktg.pythonanywhere.com/testfl
 
 The client asks `http://<host>:8080/env_settings` where the game server is. Three hard coded URLs point at HayDay's domains. `patcher.py` rewrites them:
 
-```
-python3 patcher.py "Hay Day 1.5.42 (772.14583.4279).ipa" haydaypatched.ipa 192.168.178.73
+Replace `192.168.x.x` with your IP address.
+
+```bash
+python3 patcher.py "Hay Day 1.5.42 (772.14583.4279).ipa" haydaypatched.ipa 192.168.x.x
 ```
 
 The host must be at most 24 characters including the port. Once you're done install the .IPA using something like Sideloadly on a **jailbroken** device.
