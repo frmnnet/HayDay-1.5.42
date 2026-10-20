@@ -29,8 +29,10 @@ First, download the IPA from [here](https://bluetalktg.pythonanywhere.com/testfl
 
 The client asks `http://<host>:8080/env_settings` where the game server is. Three hard coded URLs point at HayDay's domains. `patcher.py` rewrites them:
 
-```
-python3 patcher.py "Hay Day 1.5.42 (772.14583.4279).ipa" haydaypatched.ipa 192.168.178.73
+Replace `192.168.x.x` with your IP address.
+
+```bash
+python3 patcher.py "Hay Day 1.5.42 (772.14583.4279).ipa" haydaypatched.ipa 192.168.x.x
 ```
 
 The host must be at most 24 characters including the port. Once you're done install the .IPA using something like Sideloadly on a **jailbroken** device.
