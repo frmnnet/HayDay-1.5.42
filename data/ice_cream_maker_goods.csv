@@ -1,0 +1,15 @@
+"Name","ToolIconExportName","TID","ProcessingBuilding","RequirementAmount","Requirement","TimeMin","OrderPrice","OrderExp","ExpCollect","InstantComplete","DumbValue","OrderValue","UnlockLevel","DescriptionTID"
+"String","String","String","String","int","String","int","int","int","int","int","int","int","int","string"
+"Vanilla Ice Cream","recipe_vanilla_ice_cream","TID_VANILLA_ICE_CREAM","Ice_Cream_Maker",1,"Cream",120,89,85,20,5,48,28,29,"TID_ICE_CREAM_MAKER_PRODUCT_DESCRIPTION"
+,,,,1,"Milk",,,,,,,,,
+,,,,1,"White Sugar",,,,,,,,,
+"Cherry Popsicle","recipe_cherry_popsicle","TID_CHERRY_POPSICLE","Ice_Cream_Maker",1,"Cherry Juice",180,181,174,42,6,98,63,33,"TID_ICE_CREAM_MAKER_PRODUCT_DESCRIPTION"
+,,,,1,"Syrup",,,,,,,,,
+"Strawberry Ice Cream","recipe_strawberry_ice_cream","TID_STRAWBERRY_ICE_CREAM","Ice_Cream_Maker",1,"Cream",240,171,165,40,7,92,60,34,"TID_ICE_CREAM_MAKER_PRODUCT_DESCRIPTION"
+,,,,1,"Milk",,,,,,,,,
+,,,,1,"White Sugar",,,,,,,,,
+,,,,3,"Strawberry",,,,,,,,,
+"Chocolate Ice Cream","recipe_chocolate_ice_cream","TID_CHOCOLATE_ICE_CREAM","Ice_Cream_Maker",1,"Cream",150,176,170,41,6,95,61,39,"TID_ICE_CREAM_MAKER_PRODUCT_DESCRIPTION"
+,,,,1,"Milk",,,,,,,,,
+,,,,1,"White Sugar",,,,,,,,,
+,,,,2,"Cacao",,,,,,,,,

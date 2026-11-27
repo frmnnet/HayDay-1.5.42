@@ -2,6 +2,7 @@ from Utils.Reader import Reader
 
 
 class ChangeAccountSettingsMessage(Reader):
+    ID = 10104
 
     def __init__(self, data, device):
         super().__init__(data)

@@ -1,0 +1,693 @@
+{
+  "LogicAdvertiseRoadsideShopStandCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 36
+  },
+  "LogicAnimalHabitatPanicCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 6
+  },
+  "LogicAppRateChangeStateCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 49
+  },
+  "LogicAskHelpForBoatOrderCommand": {
+    "fields": [
+      "short",
+      "tick"
+    ],
+    "type": 91
+  },
+  "LogicBoostFieldCommand": {
+    "fields": [
+      "int",
+      "int",
+      "tick"
+    ],
+    "type": 7
+  },
+  "LogicBoyRejectOfferCommand": {
+    "fields": [
+      "tick"
+    ],
+    "type": 72
+  },
+  "LogicBoySearchItemCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 71
+  },
+  "LogicBoyStopHappyCommand": {
+    "fields": [
+      "tick"
+    ],
+    "type": 75
+  },
+  "LogicBuyAnimalCommand": {
+    "fields": [
+      "int",
+      "int",
+      "int",
+      "int",
+      "bool",
+      "tick"
+    ],
+    "type": 5
+  },
+  "LogicBuyExpansionCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 90
+  },
+  "LogicBuyFromAIRoadsideShopCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 47
+  },
+  "LogicBuyGoodsWithDiamondsCommand": {
+    "fields": [
+      "counted_int_pairs",
+      "byte",
+      "tick"
+    ],
+    "type": 39
+  },
+  "LogicBuyMarketStandCommand": {
+    "fields": [
+      "tick"
+    ],
+    "type": 30
+  },
+  "LogicBuyObjectCommand": {
+    "fields": [
+      "int",
+      "int",
+      "int",
+      "int",
+      "bool",
+      "tick"
+    ],
+    "type": 4
+  },
+  "LogicBuySeedCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 8
+  },
+  "LogicBuyWheelSpinWithDiamondsCommand": {
+    "fields": [
+      "tick"
+    ],
+    "type": 82
+  },
+  "LogicCallBoyCommand": {
+    "fields": [
+      "tick"
+    ],
+    "type": 74
+  },
+  "LogicCallPetsCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 89
+  },
+  "LogicCheckMysteryBoxLockedCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 46
+  },
+  "LogicClaimAchievementCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 51
+  },
+  "LogicClaimBoyBoxCommand": {
+    "fields": [
+      "tick"
+    ],
+    "type": 73
+  },
+  "LogicClaimRoadsideShopStandCommand": {
+    "fields": [
+      "short",
+      "int",
+      "tick"
+    ],
+    "type": 31
+  },
+  "LogicClosedLevelUpCommand": {
+    "fields": [
+      "short",
+      "tick"
+    ],
+    "type": 33
+  },
+  "LogicCollectAnimalCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 14
+  },
+  "LogicCollectCarCommand": {
+    "fields": [
+      "tick"
+    ],
+    "type": 41
+  },
+  "LogicCollectCompletedBuildingExpCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 17
+  },
+  "LogicCollectForestCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 20
+  },
+  "LogicCollectFruitCommand": {
+    "fields": [
+      "int",
+      "short",
+      "tick"
+    ],
+    "type": 62
+  },
+  "LogicCollectFruitTreeCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 61
+  },
+  "LogicCollectPetCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 87
+  },
+  "LogicCollectProductionsCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 13
+  },
+  "LogicCompleteBoatCrateCommand": {
+    "fields": [
+      "byte",
+      "bool",
+      "tick"
+    ],
+    "type": 56
+  },
+  "LogicCompleteBoatOrderCommand": {
+    "fields": [
+      "tick"
+    ],
+    "type": 55
+  },
+  "LogicCompleteOrderCommand": {
+    "fields": [
+      "byte",
+      "int",
+      "tick"
+    ],
+    "type": 28
+  },
+  "LogicCompletePeopleOrderCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 40
+  },
+  "LogicDebugCommand": {
+    "fields": [
+      "int",
+      "int",
+      "tick"
+    ],
+    "type": 85
+  },
+  "LogicDestroyFruitTreeCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 60
+  },
+  "LogicDestructForestCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 18
+  },
+  "LogicDiscardBoatOrderCommand": {
+    "fields": [
+      "tick"
+    ],
+    "type": 57
+  },
+  "LogicDiscardBoyCommand": {
+    "fields": [
+      "tick"
+    ],
+    "type": 69
+  },
+  "LogicDiscardMovieTicketCommand": {
+    "fields": [
+      "tick"
+    ],
+    "type": 78
+  },
+  "LogicDiscardMysteryBoxCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 45
+  },
+  "LogicDiscardOrderCommand": {
+    "fields": [
+      "byte",
+      "tick"
+    ],
+    "type": 27
+  },
+  "LogicDiscardPeopleOrderCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 43
+  },
+  "LogicDiscardRoadsideShopStandCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 37
+  },
+  "LogicFacebookAdClickedCommand": {
+    "fields": [
+      "tick"
+    ],
+    "type": 95
+  },
+  "LogicFadeAwayMysteryBoxCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 48
+  },
+  "LogicFeedAnimalCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 9
+  },
+  "LogicFillPetBowlCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 86
+  },
+  "LogicFixBuildingCommand": {
+    "fields": [
+      "int",
+      "byte",
+      "tick"
+    ],
+    "type": 25
+  },
+  "LogicGetMovieTicketFinishedRewardCommand": {
+    "fields": [
+      "tick"
+    ],
+    "type": 77
+  },
+  "LogicGetMovieTicketPreRewardCommand": {
+    "fields": [
+      "tick"
+    ],
+    "type": 76
+  },
+  "LogicHarvestFieldCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 2
+  },
+  "LogicHarvestFieldGainCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 22
+  },
+  "LogicHarvestFieldOverCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 23
+  },
+  "LogicHireBoyCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 68
+  },
+  "LogicIgnoreFBConnectPopupCommand": {
+    "fields": [
+      "tick"
+    ],
+    "type": 92
+  },
+  "LogicInstantCompleteAnimalCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 15
+  },
+  "LogicInstantCompleteBuildingCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 16
+  },
+  "LogicInstantCompleteFieldCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 24
+  },
+  "LogicInstantCompleteFruitTreeCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 59
+  },
+  "LogicInstantCompleteMasteryStarCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 96
+  },
+  "LogicInstantCompleteProductionCommand": {
+    "fields": [
+      "int",
+      "int",
+      "tick"
+    ],
+    "type": 12
+  },
+  "LogicInstantDestructForestCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 19
+  },
+  "LogicLoggedToFacebookCommand": {
+    "fields": [
+      "bool",
+      "tick"
+    ],
+    "type": 67
+  },
+  "LogicMirrorObjectCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 53
+  },
+  "LogicMoveObjectCommand": {
+    "fields": [
+      "int",
+      "int",
+      "int",
+      "tick"
+    ],
+    "type": 3
+  },
+  "LogicOpenMysteryBoxCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 44
+  },
+  "LogicPlantSeedsCommand": {
+    "fields": [
+      "int",
+      "int",
+      "tick"
+    ],
+    "type": 1
+  },
+  "LogicPutStuffToRoadsideShopStandCommand": {
+    "fields": [
+      "short",
+      "int",
+      "short",
+      "int",
+      "bool",
+      "tick"
+    ],
+    "type": 32
+  },
+  "LogicRemoveNewFlagFromOrdersCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 26
+  },
+  "LogicReviveFruitTreeCollectCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 66
+  },
+  "LogicReviveFruitTreeCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 63
+  },
+  "LogicReviveFruitTreeRequestCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 65
+  },
+  "LogicSelectAnimalInHabitatCommand": {
+    "fields": [
+      "int",
+      "int",
+      "tick"
+    ],
+    "type": 21
+  },
+  "LogicSelectItemToBuyFromBoyCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 70
+  },
+  "LogicSellObjectCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 54
+  },
+  "LogicSetOfferPurchasedCommand": {
+    "fields": [
+      "tick"
+    ],
+    "type": 94
+  },
+  "LogicSpawnAmbientAnimalCommand": {
+    "fields": [
+      "int",
+      "int",
+      "int",
+      "int",
+      "int",
+      "bool",
+      "tick"
+    ],
+    "type": 50
+  },
+  "LogicSpeedUpAdvertisementCommand": {
+    "fields": [
+      "tick"
+    ],
+    "type": 52
+  },
+  "LogicSpeedUpBoatCommand": {
+    "fields": [
+      "tick"
+    ],
+    "type": 58
+  },
+  "LogicSpeedUpOrderCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 29
+  },
+  "LogicSpinWheelClosedCommand": {
+    "fields": [
+      "tick"
+    ],
+    "type": 81
+  },
+  "LogicSpinWheelCommand": {
+    "fields": [
+      "int",
+      "int",
+      "int",
+      "int",
+      "int",
+      "tick"
+    ],
+    "type": 79
+  },
+  "LogicSpinWheelDebugCommand": {
+    "fields": [
+      "int",
+      "int",
+      "int",
+      "int",
+      "int",
+      "tick"
+    ],
+    "type": 84
+  },
+  "LogicSpinWheelEndedCommand": {
+    "fields": [
+      "tick"
+    ],
+    "type": 80
+  },
+  "LogicSpinWheelOpenedCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 83
+  },
+  "LogicStartProductionCommand": {
+    "fields": [
+      "int",
+      "int",
+      "tick"
+    ],
+    "type": 10
+  },
+  "LogicStartTutorialCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 35
+  },
+  "LogicStoreObjectCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 93
+  },
+  "LogicTapAmbientAnimalCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 42
+  },
+  "LogicTapPetCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 88
+  },
+  "LogicTutorialCompletedCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 34
+  },
+  "LogicUpdateTimersCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 38
+  },
+  "LogicUpgradeBuildingCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 11
+  },
+  "LogicUseMineCommand": {
+    "fields": [
+      "int",
+      "tick"
+    ],
+    "type": 64
+  }
+}

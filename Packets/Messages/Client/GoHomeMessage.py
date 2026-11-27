@@ -3,6 +3,7 @@ from Packets.Messages.Server.OwnHomeDataMessage import OwnHomeDataMessage
 
 
 class GoHomeMessage(Reader):
+    ID = 14101
 
     def __init__(self, data, device):
         super().__init__(data)
@@ -12,4 +13,5 @@ class GoHomeMessage(Reader):
         pass
 
     def process(self):
+        self.device.visiting_seller = None
         OwnHomeDataMessage(self.device).Send()  # send ohd

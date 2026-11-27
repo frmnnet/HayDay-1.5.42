@@ -1,0 +1,14 @@
+Name,Type,FallbackStory,Width,Height,ExportName,Text1,Text2,URL
+String,String,String,int,int,String,String,String,String
+FSf,FSf,,2,2,fluff_story_2x2_01,,,
+FSw,FSw,,2,1,player_ad_01,,,
+FSt,FSt,,1,2,player_ad_01,,,
+FSs,FSs,,1,1,player_ad_01,,,
+P,P,,1,1,cross_promo_ad,,,
+Pw,P,,2,1,cross_promo_ad_2col,,,
+SO,SO,,1,1,player_ad_01,,,
+DB,DB,,1,1,player_ad_01,,,
+MP,MP,,1,2,player_ad_01,,,
+GA,GA,,1,1,player_ad_01,,,
+H,H,,2,1,header,,,
+Pfb,Pfb,Pw,1,1,facebook_ad,TID_NEWSPAPER_FB_PROMO_TEXT,TID_NEWSPAPER_FB_PROMO_BUBBLE_TEXT,http://www.facebook.com/297050457046195

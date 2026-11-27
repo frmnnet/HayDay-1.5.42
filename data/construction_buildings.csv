@@ -1,0 +1,10 @@
+"Name","FileName","ExportName","TileWidth","TileHeight","TapSound","TapProcessingSound","CollectSound","OnlyForBuilding"
+"String","String","String","int","int","String","String","String","String"
+"4x4 Construction Site","sc/buildings_02.sc","construction_4x4",4,4,"ConstructionSite","ConstructionSite","CoinXpExplosion",
+"3x3 Construction Site","sc/buildings_02.sc","construction_3x3",3,3,"ConstructionSite","ConstructionSite","CoinXpExplosion",
+"2x2 Construction Site","sc/buildings_02.sc","construction_2x2",2,2,"ConstructionSite","ConstructionSite","CoinXpExplosion",
+"ChickenTent","sc/buildings_02.sc","chicken_tent",3,3,"ConstructionSite","ConstructionSite","CoinXpExplosion","ChickenHabitat"
+"DockConstruction","sc/buildings_02.sc","pier_stone_construction",5,2,"ConstructionSite","ConstructionSite","CoinXpExplosion","Dock"
+"PierConstruction","sc/buildings_02.sc","pier_stone_construction",5,2,"ConstructionSite","ConstructionSite","CoinXpExplosion","Pier"
+"MineConstruction","sc/buildings_02.sc","mine_construction",3,3,"ConstructionSite","ConstructionSite","CoinXpExplosion","RepairedMine"
+"2x3Construction Site","sc/buildings_02.sc","construction_2x3",2,3,"ConstructionSite","ConstructionSite","CoinXpExplosion",

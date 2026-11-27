@@ -2,6 +2,7 @@ import json
 from Utils.Writer import Writer
 from Logic.AIAvatar import encode
 from Logic.GameData import GameData
+from Logic.GameTime import now_seconds
 
 conf = json.load(open("config.json"))
 data = GameData()
@@ -18,4 +19,4 @@ class AIHomeDataMessage(Writer):
 
     def encode(self):
         encode(self, data, ai, self.high, self.low, conf.get("AIName", "Greg"))
-        self.writeInt(0)
+        self.writeInt(now_seconds())

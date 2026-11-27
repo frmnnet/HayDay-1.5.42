@@ -1,0 +1,17 @@
+"Name","Enabled","UnlockLevel","TID","DelayMinutes","Sound"
+"String","Boolean","int","String","int","String"
+"PlayerComeBack","true",,"TID_NOTIFICATION_PLAYER_PLEASE_COME_BACK",1440,"InstantComplete"
+"OrderReady","true",,"TID_NOTIFICATION_ORDER_READY",480,"CarHorn"
+"RoadsideShopClear","true",,"TID_NOTIFICATION_ROADSIDE_SHOP_CLEAR",,"Buy"
+"CropsReady","true",,"TID_NOTIFICATION_CROPS_READY",,"CoinXpExplosion"
+"ChickenReady","true",,"TID_NOTIFICATION_CHICKEN_READY",,"TapChicken"
+"CowReady","true",,"TID_NOTIFICATION_COW_READY",,"TapCow"
+"SheepReady","true",,"TID_NOTIFICATION_SHEEP_READY",,"TapSheep"
+"PigReady","true",,"TID_NOTIFICATION_PIG_READY",,"TapPig"
+"GoatReady","true",,"TID_NOTIFICATION_GOAT_READY",,"TapGoat"
+"BuildingReady","true",,"TID_NOTIFICATION_BUILDING_CONSTRUCTION_READY",,"SiloWareHouseUpgrade"
+"HelpWithBoat","true",,"TID_PN_HELP_WITH_BOAT_ORDER",,
+"HelpWithBoatAnon","true",,"TID_PN_HELP_WITH_BOAT_ORDER_ANONYMOUS",,
+"BoyReady","true",,"TID_NOTIFICATION_TOM_READY",,
+"BoatArrived","true",,"TID_NOTIFICATION_BOAT_ARRIVED",,
+"BoatLeaving","true",,"TID_NOTIFICATION_BOAT_LEAVING",,

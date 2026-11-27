@@ -1,0 +1,53 @@
+"Name","CollectionTool","CollectionToolAmount","TapSound"
+"String","String","int","String"
+10,"Land Deed",7,"MenuBleep"
+,"Mallet",7,
+,"Marker Stake",7,
+20,"Land Deed",15,"MenuBleep"
+,"Mallet",15,
+,"Marker Stake",15,
+30,"Land Deed",5,"MenuBleep"
+,"Mallet",5,
+,"Marker Stake",5,
+40,"Land Deed",6,"MenuBleep"
+,"Mallet",6,
+,"Marker Stake",6,
+50,"Land Deed",6,"MenuBleep"
+,"Mallet",6,
+,"Marker Stake",6,
+60,"Land Deed",6,"MenuBleep"
+,"Mallet",6,
+,"Marker Stake",6,
+70,"Land Deed",16,"MenuBleep"
+,"Mallet",16,
+,"Marker Stake",16,
+80,"Land Deed",5,"MenuBleep"
+,"Mallet",5,
+,"Marker Stake",5,
+90,"Land Deed",6,"MenuBleep"
+,"Mallet",6,
+,"Marker Stake",6,
+100,"Land Deed",11,"MenuBleep"
+,"Mallet",11,
+,"Marker Stake",11,
+110,"Land Deed",15,"MenuBleep"
+,"Mallet",15,
+,"Marker Stake",15,
+120,"Land Deed",6,"MenuBleep"
+,"Mallet",6,
+,"Marker Stake",6,
+130,"Land Deed",12,"MenuBleep"
+,"Mallet",12,
+,"Marker Stake",12,
+140,"Land Deed",7,"MenuBleep"
+,"Mallet",7,
+,"Marker Stake",7,
+150,"Land Deed",12,"MenuBleep"
+,"Mallet",12,
+,"Marker Stake",12,
+160,"Land Deed",8,"MenuBleep"
+,"Mallet",8,
+,"Marker Stake",8,
+170,"Land Deed",10,"MenuBleep"
+,"Mallet",10,
+,"Marker Stake",10,

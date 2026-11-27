@@ -1,0 +1,12 @@
+Name,FileName,ExportName,PopupExportName,WalkSpeed,IdleTime,Greeting,UnlockLevel
+String,String,String,String,int,int,String,int
+Mike,sc/humans.sc,farmer01_winter,popup_mike_winter,16,390,TID_PEOPLE_ORDER_GREETING1,1
+,,,,,,TID_PEOPLE_ORDER_GREETING2,
+Joan,sc/humans.sc,female01_winter,popup_joan_winter,16,450,TID_PEOPLE_ORDER_GREETING3,1
+,,,,,,TID_PEOPLE_ORDER_GREETING4,
+Greg,sc/humans.sc,lumberjack01_winter,popup_greg_winter,16,460,TID_PEOPLE_ORDER_GREETING5,1
+,,,,,,TID_PEOPLE_ORDER_GREETING6,
+Betty,sc/humans.sc,female02_winter,popup_betty_winter,16,460,TID_PEOPLE_ORDER_GREETING7,1
+,,,,,,TID_PEOPLE_ORDER_GREETING8,
+Girl,sc/humans.sc,female03_winter,popup_girl_winter,18,480,TID_PEOPLE_ORDER_GREETING9,1
+,,,,,,TID_PEOPLE_ORDER_GREETING10,

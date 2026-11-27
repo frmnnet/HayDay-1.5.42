@@ -1,0 +1,3 @@
+"Name","FileName","ExportName","TileWidth","TileHeight","TapSound","GuestTilePositionX","GuestTilePositionY"
+"String","String","String","int","int","String","int","int"
+"Scarecrow","sc/humans.sc","scarecrow01",1,1,"MenuBleep",15,17

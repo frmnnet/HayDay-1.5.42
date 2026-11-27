@@ -4,6 +4,7 @@ from Packets.Messages.Server.SecureConnectionOkMessage import SecureConnectionOk
 
 
 class StartSecureConnectionMessage(Reader):
+    ID = 10122
 
     def __init__(self, data, device):
         super().__init__(data)

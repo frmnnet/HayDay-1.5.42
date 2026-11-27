@@ -1,0 +1,9 @@
+Name,ToolIconExportName,TID,ProcessingBuilding,RequirementAmount,Requirement,TimeMin,OrderPrice,OrderExp,ExpCollect,InstantComplete,DumbValue,OrderValue,UnlockLevel,DescriptionTID
+String,String,String,String,int,String,int,int,int,int,int,int,int,int,string
+Pancakes,recipe_pancakes,TID_PANCAKE,Barbecue_Grill,3,Egg,30,56,54,13,3,28,22,9,TID_BARBECUE_PRODUCT_DESCRIPTION
+,,,,1,Brown_Sugar,,,,,,,,,
+Bacon and Eggs,recipe_bacon_and_eggs,TID_BACON_AND_EGGS,Barbecue_Grill,4,Egg,60,104,100,24,4,56,40,11,TID_BARBECUE_PRODUCT_DESCRIPTION
+,,,,2,Bacon,,,,,,,,,
+Hamburger,recipe_hamburger,TID_HAMBURGER,Barbecue_Grill,2,Bread,120,93,90,22,5,47,36,18,TID_BARBECUE_PRODUCT_DESCRIPTION
+,,,,2,Bacon,,,,,,,,,
+Roasted Tomatoes,recipe_roasted_tomatoes,TID_ROASTED_TOMATOES,Barbecue_Grill,2,Tomato,90,62,59,14,5,33,21,30,TID_BARBECUE_PRODUCT_DESCRIPTION

@@ -1,0 +1,6 @@
+"Name","ToolIconExportName","TID","RequirementAmount","Requirement","TimeMin","OrderPrice","OrderExp","ExpCollect","InstantComplete","DumbValue","OrderValue","ProcessingBuilding","UnlockLevel","DescriptionTID"
+"String","String","String","int","String","int","int","int","int","int","int","int","String","int","string"
+"Apple Jam","recipe_apple_jam","TID_APPLE_JAM",3,"Apple",360,102,98,24,8,55,35,"Jam_Maker",35,"TID_JAM_MAKER_PRODUCT_DESCRIPTION"
+"Raspberry Jam","recipe_raspberry_jam","TID_RASPBERRY_JAM",3,"Raspberry",420,119,115,28,9,64,42,"Jam_Maker",36,"TID_JAM_MAKER_PRODUCT_DESCRIPTION"
+"Blackberry Jam","recipe_blackberry_jam","TID_BLUEBERRY_JAM",3,"Blackberry",480,199,192,46,10,107,73,"Jam_Maker",37,"TID_JAM_MAKER_PRODUCT_DESCRIPTION"
+"Cherry Jam","recipe_cherry_jam","TID_CHERRY_JAM",3,"Cherry",420,168,162,39,9,91,60,"Jam_Maker",38,"TID_JAM_MAKER_PRODUCT_DESCRIPTION"

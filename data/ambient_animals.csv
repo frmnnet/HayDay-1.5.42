@@ -1,0 +1,10 @@
+Name,FileName,ExportName,UnlockLevel,Behavior,TapSound,SpeedMultiplier
+String,String,String,int,int,String,int
+Butterfly1,sc/animals.sc,snowflakes01,2,,,100
+Butterfly2,sc/animals.sc,snowflakes01,2,,,100
+Butterfly3,sc/animals.sc,snowflakes01,2,,,100
+Butterfly4,sc/animals.sc,snowflakes01,2,,,100
+Bird,sc/animals.sc,bird01,2,1,,80
+Fox,sc/animals.sc,fox01,2,2,FoxTap,100
+Frog,sc/animals.sc,frog01,2,3,FrogTap,100
+Fish,sc/animals.sc,fish01,2,4,,100

@@ -1,0 +1,21 @@
+Name,ToolIconExportName,TID,ProcessingBuilding,RequirementAmount,Requirement,TimeMin,OrderPrice,OrderExp,ExpCollect,InstantComplete,DumbValue,OrderValue,UnlockLevel,DescriptionTID
+String,String,String,String,int,String,int,int,int,int,int,int,int,int,string
+Cheese Cake,recipe_cheese_cake,TID_CHEESE_CAKE,Cake_Oven,1,Cookie,240,146,140,34,7,79,48,24,TID_CAKE_OVEN_PRODUCT_DESCRIPTION
+,,,,1,Cheese,,,,,,,,,
+Carrot Cake,recipe_carrot_cake,TID_CARROT_CAKE,Cake_Oven,2,Carrot,90,86,83,20,5,46,29,21,TID_CAKE_OVEN_PRODUCT_DESCRIPTION
+,,,,1,Butter,,,,,,,,,
+,,,,1,Brown_Sugar,,,,,,,,,
+Birthday Cake,recipe_cream_cake,TID_BIRTHDAY_CAKE,Cake_Oven,5,Wheat,180,112,108,26,6,61,36,23,TID_CAKE_OVEN_PRODUCT_DESCRIPTION
+,,,,1,Cream,,,,,,,,,
+,,,,1,White Sugar,,,,,,,,,
+Chocolate Cake,recipe_chocolate_cake,TID_CHOCOLATE_CAKE,Cake_Oven,1,Butter,120,165,159,38,5,89,57,36,TID_CAKE_OVEN_PRODUCT_DESCRIPTION
+,,,,1,Brown_Sugar,,,,,,,,,
+,,,,2,Cacao,,,,,,,,,
+Strawberry Cake,recipe_strawberry_cake,TID_STRAWBERRY_CAKE,Cake_Oven,3,Wheat,180,163,156,38,6,88,54,35,TID_CAKE_OVEN_PRODUCT_DESCRIPTION
+,,,,1,Cream,,,,,,,,,
+,,,,1,White Sugar,,,,,,,,,
+,,,,2,Strawberry,,,,,,,,,
+Berry Cake,recipe_berry_cake,TID_BERRY_CAKE,Cake_Oven,1,Raspberry,60,132,127,31,4,71,49,23,TID_CAKE_OVEN_PRODUCT_DESCRIPTION
+,,,,2,Cherry,,,,,,,,,
+,,,,1,Milk,,,,,,,,,
+,,,,1,Egg,,,,,,,,,

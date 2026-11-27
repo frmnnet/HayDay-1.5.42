@@ -1,10 +1,14 @@
+from Utils.Logging import logger, setup_logging
 import socket
 import traceback
 from threading import *
 from Packets.MessageFactory import *
 from Logic.Device import Device
+from Logic.GameState import GameState
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import json
+from Utils.Storage import load_config, save_config
+from Utils.PacketCapture import record as capture_packet
 
 
 class ServerThread():
@@ -16,13 +20,13 @@ class ServerThread():
     def start(self):
         self.client.bind((self.address, self.port))
 
-        print(f"[*] Server is listening on {self.address}:{self.port}\nLet's play HayDay!".format(self.address, self.port))
+        logger.info(f"[*] Server is listening on {self.address}:{self.port}\nLet's play HayDay!".format(self.address, self.port))
 
         while True:
             self.client.listen(5)
             client, address = self.client.accept()
 
-            print("[*] New connection from {}".format(address[0]))
+            logger.info("[*] New connection from {}".format(address[0]))
             clientThread = ClientThread(client).start()
 
 
@@ -51,8 +55,14 @@ class ClientThread(Thread):
         except (EOFError, OSError):
             pass
         finally:
+            # Anything still marked dirty on this connection gets persisted.
+            try:
+                GameState.flush_device(self.device)
+            except Exception:
+                logger.exception("[DB] final flush failed")
+            self.device.unregister_online()
             self.client.close()
-            print('[*] Client disconnected')
+            logger.info('[*] Client disconnected')
 
     def loop(self):
         while True:
@@ -64,10 +74,11 @@ class ClientThread(Thread):
 
             if len(header) >= 7:
                 if length == len(data):
-                    print("[*] {} received".format(packetid))
+                    logger.info("[*] {} received".format(packetid))
 
                     try:
                         decrypted = self.device.decrypt(data)
+                        capture_packet("C2S", packetid, decrypted, version)
                         if packetid in availablePackets:
 
                             Message = availablePackets[packetid](decrypted, self.device)
@@ -76,20 +87,27 @@ class ClientThread(Thread):
                             Message.process()
 
                         else:
-                            print("[*] {} not handled, payload: {}".format(packetid, decrypted.hex()))  # hex for reversing
+                            logger.warning("[*] {} not handled, payload: {}".format(packetid, decrypted.hex()))  # hex for reversing
 
-                    except:
-                            print('[*] Error while decrypting / handling {}'.format(packetid))
-                            traceback.print_exc()
+                    except Exception:
+                            logger.error('Error while decrypting / handling {}'.format(packetid))
+                            logger.exception('Traceback for packet {}'.format(packetid))
+                    finally:
+                        # One write per packet instead of one per command:
+                        # state.save() only marks the state dirty.
+                        try:
+                            GameState.flush_device(self.device)
+                        except Exception:
+                            logger.exception("[DB] flush failed for packet {}".format(packetid))
                 else:
-                    print('[*] Incorrect Length for packet {} (header length: {}, data length: {})'.format(packetid, length, len(data)))
+                    logger.warning('Incorrect Length for packet {} (header length: {}, data length: {})'.format(packetid, length, len(data)))
             else:
-                print('[*] Received an invalid packet from client')
+                logger.warning('Received an invalid packet from client')
                 return
             
 class EnvHandler(BaseHTTPRequestHandler):
     def do_GET(self):
-        c = json.load(open("config.json"))
+        c = load_config()
         body = json.dumps({
             "environment": "maintenance" if c["Maintenance"] else c["Environment"],
             "serverHost": c["Host"],
@@ -97,7 +115,25 @@ class EnvHandler(BaseHTTPRequestHandler):
             "updateUrl": "",
             "status": "ok",
         }).encode()
-        print('[HTTP] GET {}'.format(self.path))
+        logger.info('[HTTP] GET {}'.format(self.path))
+
+        if self.path == "/status":
+            body = json.dumps({
+                "status": "ok",
+                "host": c["Host"],
+                "port": c["Port"],
+                "name": c.get("Name"),
+                "diamonds": c.get("Diamonds"),
+                "cash": c.get("Cash"),
+                "expLevel": c.get("ExpLevel"),
+            }).encode()
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/json')
+            self.send_header('Content-Length', str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
+            return
+
         self.send_response(200)
         self.send_header('Content-Type', 'application/json')
         self.send_header('Content-Length', str(len(body)))
@@ -109,7 +145,9 @@ class EnvHandler(BaseHTTPRequestHandler):
 
 
 if __name__ == '__main__':
-    conf = json.load(open("config.json"))
+    setup_logging()
+    logger.info('Starting Hay Day server (log level from config.json)')
+    conf = load_config()
     Thread(target=ThreadingHTTPServer(("0.0.0.0", conf["HttpPort"]), EnvHandler).serve_forever, daemon=True).start()
     server = ServerThread("0.0.0.0", conf["Port"])
     server.start()

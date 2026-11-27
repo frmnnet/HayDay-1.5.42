@@ -3,3 +3,7 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
+haydaypatched_extracted/
+logs/
+tools/
+captures/

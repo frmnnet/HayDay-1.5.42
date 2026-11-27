@@ -1,0 +1,3 @@
+"Name","PreExpReward","PreDiamondReward","FileName","ExportName","RequiredLevel","OnlyForNonPayingUsers","FinishedExpReward","FinishedDiamondReward","TimerMinutes","OnlyInHighMemoryDevices"
+"String","int","int","String","String","int","boolean","int","int","int","boolean"
+"MovieTickets",5,,"sc/buildings.sc","movie_ticket",11,"true",45,2,240,
