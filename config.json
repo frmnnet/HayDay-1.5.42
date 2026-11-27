@@ -1,5 +1,5 @@
 {
-    "Host": "192.168.x.x",
+    "Host": "192.168.*.*",
     "Port": 9339,
     "HttpPort": 8080,
     "Maintenance": false,
@@ -16,9 +16,22 @@
     "ExpLevel": 1,
     "ExpPoints": 0,
 
+    "AssignNewAccounts": true,
+    "ExportHomeJson": true,
+    "DbBackups": 3,
+
     "AIName": "Greg",
 
     "SkipTutorial": false,
     "TutorialTable": 36,
-    "HomeFile": "JSON/home.json"
+    "HomeFile": "JSON/home.json",
+
+    "CapturePackets": true,
+    "CaptureDir": "captures",
+
+    "LogLevel": "INFO",
+    "LogColor": true,
+    "LogDir": "logs",
+    "LogMaxBytes": 5242880,
+    "LogBackups": 3
 }
