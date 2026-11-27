@@ -18,8 +18,8 @@ class Reader(BufferedReader):
     def readShort(self, length=2):
         return int.from_bytes(self.read(length), "big")
 
-    def readInt(self, length=4):
-        return int.from_bytes(self.read(length), "big")
+    def readInt(self, length=4, signed=False):
+        return int.from_bytes(self.read(length), "big", signed=signed)
 
     def readLong(self):
         return self.readInt(8)
@@ -28,17 +28,18 @@ class Reader(BufferedReader):
         return self.readUInteger()
 
     def readUInteger(self, length: int = 1) -> int:
+        # Read from the same underlying stream as readInt/readByte, otherwise
+        # the stream position desyncs (this caused bogus command ids like 121).
+        data = self.read(length)
+        if len(data) < length:
+            raise EOFError("not enough bytes for readUInteger")
         result = 0
-        for x in range(length):
-            byte = self.buffer[self.i]
-
+        for x, byte in enumerate(data):
             bit_padding = x * 8
             if self.endian == 'big':
                 bit_padding = (8 * (length - 1)) - bit_padding
-
             result |= byte << bit_padding
             self.i += 1
-
         return result
 
     def _read_varint(self, rotate: bool = True):
