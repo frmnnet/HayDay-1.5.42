@@ -1,0 +1,13 @@
+"Name","FileName","OutlineColor","Color","RetinaFileName","Size",
+"String","String","String","String","String","int",
+"h1","font/font_h1.fnt","FF000000","FFFFFFFF","font/font_h1r.fnt",48,"SC_SecOrigBB 48pt"
+"h2","font/font_h1.fnt","FF000000","FFFFFFFF","font/font_h1.fnt",36,"SC_SecOrigBB 36pt"
+"h3","font/font_h1.fnt","FF000000","FFFFFFFF","font/font_h1.fnt",28,"SC_SecOrigBB 28pt"
+"t1","font/font_t3.fnt",,"FF7B593D","font/font_t3.fnt",18,"SC_CCBackBeat 16pt"
+"t2","font/font_t3.fnt",,"FF7B593D","font/font_t3.fnt",16,"SC_CCBackBeat 14pt"
+"t3","font/font_t3.fnt",,"FF83523D","font/font_t3.fnt",26,"SC_CCBackBeat 26pt"
+"t4","font/font_t3.fnt",,"FF2F2F2F","font/font_t3.fnt",22,"SC_CCBackBeat 22pt"
+"t5","font/font_t3.fnt",,"FF2F2F2F","font/font_t3.fnt",18,"SC_CCBackBeat 22pt"
+"t6","font/font_t3.fnt",,"FF2F2F2F","font/font_t3.fnt",10,"SC_CCBackBeat 22pt"
+"t7","font/font_t3.fnt",,"FF573F2B","font/font_t3.fnt",16,"SC_CCBackBeat 14pt"
+"t8","font/font_t3.fnt",,"FF7B593D","font/font_t3.fnt",11,"SC_CCBackBeat 11pt"

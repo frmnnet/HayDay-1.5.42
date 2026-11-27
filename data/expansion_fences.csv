@@ -1,0 +1,8 @@
+"Name","FileName","ExportName","FenceBelowExportName","FenceRightExportName","FenceCornerExportName","TileWidth","TileHeight"
+"String","String","String","String","String","String","int","int"
+"Fence","sc/decos.sc","exp_fence_pole","exp_fence01","exp_fence01_mirror","exp_fence_corner",1,1
+,,,"exp_fence02","exp_fence02_mirror",,1,1
+,,,"exp_fence03","exp_fence03_mirror",,1,1
+,,,"exp_fence04","exp_fence04_mirror",,1,1
+,,,"exp_fence05","exp_fence05_mirror",,1,1
+,,,"exp_fence06","exp_fence06_mirror",,1,1

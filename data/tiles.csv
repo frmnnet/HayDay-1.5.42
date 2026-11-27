@@ -1,0 +1,15 @@
+Name,ExportName,FileName,BlocksBuilding,GreenTile,SelectedTile
+String,String,String,boolean,String,String
+Default,ground_tile_01_winter,sc/background.sc,,,
+Habitat_01,ground_tile_01_winter,sc/background.sc,,,
+Road_01,ground_tile_road_01,sc/background.sc,true,,
+Road_N01,ground_tile_road_n01_winter,sc/background.sc,true,,
+Road_S01,ground_tile_road_s01_winter,sc/background.sc,true,,
+Ground_Var01,ground_tile_02_winter,sc/background.sc,,,
+Ground_Var02,ground_tile_03_winter,sc/background.sc,,,
+ExpansionTile01,ground_tile_01_exp,sc/background.sc,,Default,ExpansionTile01Selected
+ExpansionTile02,ground_tile_02_exp,sc/background.sc,,Ground_Var01,ExpansionTile02Selected
+ExpansionTile03,ground_tile_03_exp,sc/background.sc,,Ground_Var02,ExpansionTile03Selected
+ExpansionTile01Selected,ground_tile_01_exp_select,sc/background.sc,,,
+ExpansionTile02Selected,ground_tile_02_exp_select,sc/background.sc,,,
+ExpansionTile03Selected,ground_tile_03_exp_select,sc/background.sc,,,

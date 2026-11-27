@@ -1,0 +1,11 @@
+Name,ToolIconExportName,UnlockLevel,TID,DumbValue,DiamondPrice,DescriptionTID
+String,String,int,String,int,int,String
+Plank,collection_plank,1,TID_PLANK,75,8,TID_PLANK_DESCRIPTION
+Nail,collection_nail,1,TID_NAIL,75,8,TID_NAIL_DESCRIPTION
+Bolt,collection_bolt,1,TID_BOLT,75,8,TID_BOLT_DESCRIPTION
+Screw,collection_screw,1,TID_SCREW,75,8,TID_SCREW_DESCRIPTION
+Duct Tape,collection_duct_tape,1,TID_DUCT_TAPE,75,8,TID_DUCT_TAPE_DESCRIPTION
+Wood Panel,collection_wood_panel,1,TID_WOOD_PANEL,75,8,TID_WOOD_PANEL_DESCRIPTION
+Land Deed,collection_land_deed,22,TID_LAND_DEED,112,12,TID_LAND_DEED_DESCRIPTION
+Mallet,collection_mallet,22,TID_MALLET,112,12,TID_MALLET_DESCRIPTION
+Marker Stake,collection_marker_stake,22,TID_STAKE,112,12,TID_STAKE_DESCRIPTION

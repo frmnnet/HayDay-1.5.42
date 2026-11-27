@@ -1,0 +1,8 @@
+Name,ToolIconExportName,TID,ProcessingBuilding,OrderPrice,OrderExp,ExpCollect,DumbValue,OrderValue,UnlockLevel,DescriptionTID
+String,String,String,String,int,int,int,int,int,int,String
+Apple,icon_apple,TID_APPLE,AppleTree,22,15,7,11,7,15,TID_APPLE_DESCRIPTION
+Cherry,icon_cherries,TID_CHERRY,CherryTree,40,26,13,19,13,22,TID_CHERRY_DESCRIPTION
+Raspberry,icon_raspberry,TID_RASPBERRY,RaspberryBush,26,17,9,13,9,19,TID_RASPBERRY_DESCRIPTION
+Blackberry,icon_blackberry,TID_BLUEBERRY,BlueberryBush,47,32,16,23,16,26,TID_BLUEBERRY_DESCRIPTION
+Cacao,icon_cacao,TID_CACAO,CacaoTree,49,33,16,24,16,36,TID_CACAO_DESCRIPTION
+Coffee,icon_coffee,TID_COFFEE,CoffeeBush,37,25,12,18,12,42,TID_COFFEE_DESCRIPTION

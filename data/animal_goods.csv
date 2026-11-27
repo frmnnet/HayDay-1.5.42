@@ -1,0 +1,7 @@
+"Name","ToolIconExportName","TID","TimeMin","TimeSec","ExpCollect","OrderValue","InstantComplete","UnlockLevel","OrderPrice","OrderExp","DumbValue","DescriptionTID"
+"String","String","String","int","int","int","int","int","int","int","int","int","string"
+"Egg","icon_egg","TID_EGG",20,,2,4,2,1,8,7,5,"TID_EGG_DESCRIPTION"
+"Milk","icon_milk","TID_MILK",60,,3,6,4,6,14,13,9,"TID_MILK_DESCRIPTION"
+"Wool","icon_wool","TID_WOOL",360,,5,11,8,16,24,22,15,"TID_WOOL_DESCRIPTION"
+"Bacon","icon_bacon","TID_BACON",240,,5,10,7,10,21,19,14,"TID_BACON_DESCRIPTION"
+"Goat Milk","icon_goat_milk","TID_GOAT_MILK",480,,6,13,10,32,28,25,18,"TID_GOAT_MILK_DESCRIPTION"

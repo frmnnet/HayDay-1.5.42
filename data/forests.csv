@@ -1,0 +1,12 @@
+Name,ExportName,FileName,TileWidth,TileHeight,TimeMin,TimeSec,ExpClear,InstantComplete,Tool,TapSound,TapProcessingSound,CollectSound,Type
+String,String,String,int,int,int,int,int,int,String,String,String,String,int
+rock_1x1_01,rock_1x1_01,sc/nature.sc,1,1,,2,3,1,Dynamite,BigRockTap,,BigRockCollect,1
+rock_2x2_01,rock_2x2_01,sc/nature.sc,2,2,,5,8,1,Demolition Charge,BigRockTap,,BigRockCollect,1
+fir_small_01,fir_small_01_winter,sc/nature.sc,1,1,,5,4,1,Axe,BigPineTap,,SmallPineCollect,
+leafy_small_01,leafy_small_01_winter,sc/nature.sc,1,1,,5,4,1,Axe,BigPineTap,,SmallPineCollect,
+fir_medium_01,fir_medium_01_winter,sc/nature.sc,1,1,,10,5,1,Saw,BigPineTap,,BigPineCollect,
+fir_medium_02,fir_medium_02_winter,sc/nature.sc,1,1,,10,5,1,Saw,BigPineTap,,BigPineCollect,
+fir_big_01,fir_big_01_winter,sc/nature.sc,1,1,,10,5,1,Saw,BigPineTap,,BigPineCollect,
+bog_3x3_01,bog_3x3_01_winter,sc/nature.sc,3,3,,30,15,1,Shovel,BigSwampTap,,BigSwampCollect,2
+leafy_big_01,leafy_big_01_winter,sc/nature.sc,1,1,,10,5,1,Saw,BigPineTap,,BigPineCollect,
+leafy_big_02,leafy_big_02_winter,sc/nature.sc,1,1,,10,5,1,Saw,BigPineTap,,BigPineCollect,

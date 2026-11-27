@@ -1,0 +1,14 @@
+Name,TID,BasePackage,OfferPackages,IntervalDays,DurationMinutes,NonBuyer,Buyer
+String,String,String,String,Int,Int,boolean,boolean
+NonBuyer2,TID_TLO_DESCRIPTION,com.supercell.soil.diamondpackage4,com.supercell.soil.diamondpackage4_1,4,60,true,
+,,,com.supercell.soil.diamondpackage4_2,,,,
+,,,com.supercell.soil.diamondpackage4_3,,,,
+Buyer1,TID_TLO_DESCRIPTION,com.supercell.soil.diamondpackage4,com.supercell.soil.diamondpackage4_4,10,60,,true
+,,,com.supercell.soil.diamondpackage4_5,,,,
+,,,com.supercell.soil.diamondpackage4_6,,,,
+Buyer2,TID_TLO_DESCRIPTION,com.supercell.soil.diamondpackage5,com.supercell.soil.diamondpackage5_4,10,60,,true
+,,,com.supercell.soil.diamondpackage5_5,,,,
+,,,com.supercell.soil.diamondpackage5_6,,,,
+Buyer3,TID_TLO_DESCRIPTION,com.supercell.soil.diamondpackage6,com.supercell.soil.diamondpackage6_1,10,60,,true
+,,,com.supercell.soil.diamondpackage6_2,,,,
+,,,com.supercell.soil.diamondpackage6_3,,,,

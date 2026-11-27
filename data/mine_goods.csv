@@ -1,0 +1,5 @@
+"Name","ToolIconExportName","TID","ExpCollect","UnlockLevel","DumbValue","Probability","DescriptionTID","DiamondPrice","ProcessingBuilding"
+"String","String","String","int","int","int","int","String","int","String"
+"SilverOre","icon_silver_ore","TID_SILVER_ORE",3,24,4,3,"TID_SILVER_ORE_DESCRIPTION",3,"Mine"
+"GoldOre","icon_gold_ore","TID_GOLD_ORE",4,24,5,2,"TID_GOLD_ORE_DESCRIPTION",4,"Mine"
+"PlatinumOre","icon_platinum_ore","TID_PLATINUM_ORE",5,24,7,1,"TID_PLATINUM_ORE_DESCRIPTION",5,"Mine"
